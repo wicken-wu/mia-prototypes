@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mia Prototypes</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f0f; color: #fff; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .container { text-align: center; padding: 2rem; }
+    h1 { font-size: 2.5rem; font-weight: 600; margin-bottom: 0.5rem; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    p { color: #888; font-size: 1.1rem; margin-bottom: 2rem; }
+    .status { display: inline-flex; align-items: center; gap: 0.5rem; background: #1a1a2e; border: 1px solid #2a2a4e; padding: 0.75rem 1.5rem; border-radius: 8px; font-size: 0.9rem; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .footer { margin-top: 3rem; color: #555; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Mia Prototypes</h1>
+    <p>这里展示 Mia 的 HTML/CSS/JS 高保真原型</p>
+    <div class="status">
+      <span class="dot"></span>
+      部署就绪 — 等待 Mia 上传原型
+    </div>
+    <div class="footer">Push 代码到 GitHub 即自动部署 🚀</div>
+  </div>
+</body>
+</html>

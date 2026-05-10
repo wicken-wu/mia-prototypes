@@ -1,0 +1,10 @@
+{
+  "name": "mia-prototypes",
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "devCommand": null,
+  "installCommand": null,
+  "cleanUrls": true,
+  "trailingSlash": false
+}
